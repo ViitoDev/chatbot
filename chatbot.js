@@ -28,6 +28,22 @@ client.on("message", async msg => {
         await delay(3000);
         await chat.sendStateTyping();
         await delay(3000);
-        await client.sendMessage(msg.from, "")
+        await client.sendMessage(msg.from, ""); //Mensagem falando os serviços
+    }
+
+    if (msg.body !== null && msg.body === "2" && msg.from.endsWith("@c.us")) {
+        const chat = await msg.getChat();
+        await delay(3000);
+        await chat.sendStateTyping();
+        await delay(3000);
+        await client.sendMessage(msg.from, ""); //Mensagem para fazer orçamento
+    }
+
+    if (msg.body !== null && msg.body === "3" && msg.from.endsWith("@c.us")) {
+        const chat = await msg.getChat();
+        await delay(3000);
+        await chat.sendStateTyping();
+        await delay(3000);
+        await client.sendMessage(msg.from, ""); //Outros tipos de pergunta
     }
 })

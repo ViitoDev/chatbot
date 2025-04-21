@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+:root {
+    --cor-primaria: #1B4965;
+    --cor-secundaria: #050E14;
+    --cor-terciaria: #f6f6f6;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+
+header {
+    width: 1440px auto;
+    height: 100px auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #1B4965;
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.cabecalho__logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px 20px;
+    width: 69px;
+    height: 69px;
+}
+
+.cabecalho__logo__texto {
+    text-align: center;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-terciaria);
+}
