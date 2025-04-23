@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Paytone+One&display=swap');
 
 * {
     margin: 0;
@@ -21,7 +22,7 @@ header {
     margin-top: 6px;
     margin-left: 20px;
     width: 69px;
-    height: 69pxcs;
+    height: 69px;
 }
 
 .logo_text {
@@ -30,4 +31,58 @@ header {
     font-style: normal;
     color: #ffffff;
     margin-left: 20px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.left_side{
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background-color: #050E14;
+    float: left;
+}
+
+.left_side_text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.schudeling {
+    width: 40px;
+    height: 40px;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.clients {
+    width: 40px;
+    height: 20px;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.services {
+    width: 40px;
+    height: 40px;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.revenue{
+    width: 40px;
+    height: 40px;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
 }
